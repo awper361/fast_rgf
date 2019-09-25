@@ -76,7 +76,7 @@ void BinaryTestStat::update(double y, double scr, bool pred)
     else tn++;
   }
   if (keep_results) {
-    _results.push_back(TestResult(scr,y));
+    _results.push_back(TestResult(pred,y));
   }
 }
 
